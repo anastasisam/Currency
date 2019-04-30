@@ -1,0 +1,59 @@
+body {
+    background-color: #f0f2f2 !important;
+}
+
+.title-class {
+    font-size: 30px;
+    font-weight: bold;
+    color: #095256;
+    top: -40px;
+}
+
+.main-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.table-class {
+    width: 400px;
+}
+
+.label-class {
+    font-size: 22px;
+    font-weight: bold;
+    color: #45525b;
+    padding: 20px;
+}
+
+.gain-class {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a07b7;
+}
+
+input {
+    border-color: #c0c0c0;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button, .title-class {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+button {
+    border-radius: 20px !important;
+    font-size: 26px !important;
+    color: #0a5487;
+    font-weight: bold;
+    bottom: -70px;
+}
+
+button:focus {
+    outline: 0 !important;
+}
